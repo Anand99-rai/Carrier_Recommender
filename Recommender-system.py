@@ -79,8 +79,8 @@ career_options = {
 }
 
 # Google API setup
-API_KEY = 'AIzaSyAsJ3FjOpvNyOigLgNMqDx1ncqNduhNgTg'  # Replace with your API Key
-CSE_ID = '569140b18c7d24109'  # Replace with your Custom Search Engine ID
+API_KEY = 'Your API_KEY'  # Replace with your API Key
+CSE_ID = 'YOUR CSE_ID'  # Replace with your Custom Search Engine ID
 
 def google_search(query, num_results=5):
     service = build("customsearch", "v1", developerKey=API_KEY)
